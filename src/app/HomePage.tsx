@@ -214,8 +214,8 @@ export default function HomePage() {
 
 
 {/* Slanting lines */}
-      <div className="absolute top-[3600px] inset-0 pointer-events-none">
-        <div className="absolute inset-0 pointer-events-none"
+        <div className="absolute right-[-10%] h-[calc(100%+1200px)]  top-[5600px] sm:top-[3700px] lg:top-[3800px] w-[700px] h-full z-0 pointer-events-none">
+        <div className=" absolute inset-0 opacity-80 pointer-events-none"
         style={{
           background: 'linear-gradient(-135deg, transparent 48%, rgba(139, 69, 19, 0.15) 48%, rgba(139, 69, 19, 0.15) 52%, transparent 52%)',
           bottom: '20%'

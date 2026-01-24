@@ -23,18 +23,29 @@ export default function FooterSection() {
       {/* CTA Section */}
       <section className="py-20 px-5 bg-gradient-to-br from-[#1a0a05] to-[#3d1810]">
         <div className="max-w-4xl mx-auto">
-          <div className="bg-white/5 border border-white/10 rounded-3xl p-10 md:p-16 text-center backdrop-blur-lg">
-            <h2 className="text-4xl md:text-5xl font-bold mb-5 leading-tight">
-              Ready to Design Smarter?
-            </h2>
-            <p className="text-lg text-gray-300 mb-9 max-w-2xl mx-auto leading-relaxed">
+<div className="bg-white/5 border border-white/10 rounded-3xl backdrop-blur-lg overflow-hidden">
+  {/* Image at top with no padding */}
+  <div className="flex justify-center">
+    <img 
+      src="/images/beam-top.png"
+      alt="orange-beam-top"
+      className="w-full max-w-md"
+    />
+  </div>
+  
+  {/* Content with padding */}
+  <div className="p-10 md:p-16 text-center">
+    <h2 className="text-4xl md:text-5xl font-bold mb-5 leading-tight">
+      Ready to Design Smarter?
+    </h2>
+<p className="text-lg text-gray-300 mb-9 max-w-2xl mx-auto leading-relaxed">
               Whether you're a freelancer, a team, or a growing agency—our tools adapt to your workflow. Design faster. Deliver better.
             </p>
             <button className="inline-flex items-center gap-3 bg-gradient-to-r from-[#ff6b3d] to-[#ff4520] text-white px-9 py-4 rounded-lg text-lg font-semibold transition-all duration-300 hover:shadow-xl hover:shadow-[#ff6b3d]/30 hover:-translate-y-1">
               Get Started
               <ArrowRight className="w-5 h-5" />
-            </button>
-          </div>
+            </button>  </div>
+</div>
         </div>
       </section>
 
