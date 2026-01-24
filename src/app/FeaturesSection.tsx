@@ -70,7 +70,7 @@ export default function FeaturesSection({ featuresData, loading }: FeaturesSecti
                 </div>
                 
                 <div className="flex flex-row justify-between items-center mt-auto">
-                  <h3 className="text-[20px] sm:text-[24px] lg:text-[28px] font-medium leading-[26px] sm:leading-[30px] lg:leading-[34px] text-left text-white font-modernist">
+                  <h3 className="text-[20px] sm:text-[24px] lg:text-[28px] font-medium leading-[26px] sm:leading-[30px] lg:leading-[34px] text-left text-white font-Sk-Seriff">
                     Instant Ideation
                   </h3>
                   <div className="w-[40px] sm:w-[44px] lg:w-[48px] h-[40px] sm:h-[44px] lg:h-[48px] rounded-full bg-[#ff531f] flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">

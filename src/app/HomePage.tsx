@@ -208,7 +208,7 @@ export default function HomePage() {
   <img
     src="/images/Ellipse 854 (1).png"
     alt="ellipse gradient"
-    className="w-full h-[full] object-cover opacity-80"
+    className="w-[940px] h-[983px] object-cover opacity-80"
   />
 </div>
 
