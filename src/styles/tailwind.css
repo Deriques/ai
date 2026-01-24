@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Primary Brand Colors */
+    --primary-background: #ff531f;
+    --primary-foreground: #ffffff;
+    --primary-light: #ff7043;
+    --primary-dark: #00133e;
+
+    /* Secondary Colors */
+    --secondary-background: #1a1a1c;
+    --secondary-foreground: #ffffff;
+    --secondary-light: #1b1b1c;
+    --secondary-dark: #010101;
+
+    /* Accent Colors */
+    --accent-orange: #ff531f;
+    --accent-orange-light: #ff7043;
+    --accent-green: #09c300;
+
+    /* Text Colors */
+    --text-primary: #ffffff;
+    --text-secondary: #8e8d8d;
+    --text-muted: #919191;
+    --text-light: #d9d9d9;
+    --text-accent: #ff531f;
+
+    /* Background Colors */
+    --bg-main: #010101;
+    --bg-card: #1a1a1c;
+    --bg-secondary: #1b1b1c;
+    --bg-overlay: #0000007f;
+    --bg-subtle: #ffffff19;
+    --bg-highlight: #ffffff33;
+
+    /* Border Colors */
+    --border-primary: #ffffff;
+    --border-secondary: #ffffff19;
+    --border-subtle: #ffffff26;
+    --border-accent: #fcfcfc3a;
+    --border-orange: #ff531f33;
+
+    /* Typography Variables */
+    --font-size-xs: 11px;
+    --font-size-sm: 12px;
+    --font-size-base: 14px;
+    --font-size-lg: 16px;
+    --font-size-xl: 20px;
+    --font-size-2xl: 25px;
+    --font-size-3xl: 34px;
+    --font-size-4xl: 47px;
+    --font-size-5xl: 59px;
+
+    /* Font Weight Variables */
+    --font-weight-normal: 400;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* Line Height Variables */
+    --line-height-xs: 14px;
+    --line-height-sm: 16px;
+    --line-height-base: 20px;
+    --line-height-lg: 26px;
+    --line-height-xl: 35px;
+    --line-height-2xl: 52px;
+    --line-height-3xl: 65px;
+
+    /* Spacing Variables */
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 12px;
+    --spacing-lg: 16px;
+    --spacing-xl: 20px;
+    --spacing-2xl: 24px;
+    --spacing-3xl: 32px;
+    --spacing-4xl: 48px;
+    --spacing-5xl: 56px;
+
+    /* Border Radius Variables */
+    --radius-xs: 4px;
+    --radius-sm: 6px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --radius-xl: 20px;
+    --radius-2xl: 26px;
+
+    /* Component Specific Variables */
+    --header-height: 72px;
+    --button-height: 48px;
+    --card-padding: 24px;
+    --section-padding: 56px;
+
+    /* Component Colors */
+    --button-primary-bg: #ff531f;
+    --button-secondary-bg: #ffffff33;
+    --button-outline-border: #fcfcfc3a;
+    --header-bg: transparent;
+    --logo-width: 40px;
+    --menu-gap: 48px;
+    --list-gap: 126px;
+    --line-bg: #d5dadb;
+  }
+}
