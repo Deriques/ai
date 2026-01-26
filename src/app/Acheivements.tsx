@@ -183,7 +183,7 @@ export default function AchievementsSection({ loading }: AchievementsProps) {
         </div>
         
         {/* Call to Action */}
-        <div className="flex flex-row justify-between items-center w-[20%]">
+        <div className="flex flex-row justify-between items-center w-[20%] sm:w-[25%] ">
           <Button
             text="Get Started"
             text_font_size="text-[7px] sm:text-[10px] lg:text-[14px]"

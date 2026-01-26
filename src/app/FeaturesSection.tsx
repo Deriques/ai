@@ -13,19 +13,19 @@ interface FeaturesSectionProps {
 
 export default function FeaturesSection({ featuresData, loading }: FeaturesSectionProps) {
   if (loading) {
-    return (
-      <section className="relative w-full px-4 sm:px-6 lg:px-8 mt-10 sm:mt-14 lg:mt-16">
-        <div className="flex flex-col gap-[18px] sm:gap-[27px] lg:gap-[36px] justify-start items-center w-full">
-          <div className="flex flex-row justify-start items-center w-full">
-            <div className="flex flex-col gap-[1px] sm:gap-[1px] lg:gap-[2px] justify-start items-start w-[42%]">
-              <div className="w-3/4 h-8 bg-background-subtle animate-pulse rounded mb-4"></div>
-              <div className="w-full h-4 bg-background-subtle animate-pulse rounded"></div>
-            </div>
-            <div className="w-[10%] h-[74px] sm:h-[111px] lg:h-[148px] bg-background-subtle animate-pulse rounded ml-8"></div>
-          </div>
-        </div>
-      </section>
-    )
+    // return (
+    //   <section className="relative w-full px-4 sm:px-6 lg:px-8 mt-10 sm:mt-14 lg:mt-16">
+    //     <div className="flex flex-col gap-[18px] sm:gap-[27px] lg:gap-[36px] justify-start items-center w-full">
+    //       <div className="flex flex-row justify-start items-center w-full">
+    //         <div className="flex flex-col gap-[1px] sm:gap-[1px] lg:gap-[2px] justify-start items-start w-[42%]">
+    //           <div className="w-3/4 h-8 bg-background-subtle animate-pulse rounded mb-4"></div>
+    //           <div className="w-full h-4 bg-background-subtle animate-pulse rounded"></div>
+    //         </div>
+    //         <div className="w-[10%] h-[74px] sm:h-[111px] lg:h-[148px] bg-background-subtle animate-pulse rounded ml-8"></div>
+    //       </div>
+    //     </div>
+    //   </section>
+    // )
   }
 
   return (

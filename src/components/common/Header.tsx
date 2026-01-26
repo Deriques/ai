@@ -42,7 +42,7 @@ const Header = () => {
               {/* Home - Active Item */}
               <div className="flex flex-col justify-start items-center w-auto">
                 <span 
-                  className="text-sm sm:text-base lg:text-lg font-bold leading-base text-white cursor-pointer hover:text-orange-500 transition-colors"
+                  className="text-sm sm:text-base lg:text-lg font-bold leading-base text-white cursor-pointer hover:text-orange-500 transition-colors "
                   style={{ fontFamily: 'Sk-Modernist' }}
                 >
                   Home

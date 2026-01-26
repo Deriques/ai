@@ -33,21 +33,21 @@ export default function Qns() {
   };
 
   return (
-    <div className="relative min-h-screen bg-black text-white overflow-visible">
+    <div className="relative min-h-screen bg-black text-white overflow-visible ">
       {/* Background decorative elements */}
-      <div className="absolute left-0 top-0 w-25 h-90 ">
+      <div className="absolute left-0 top-0 w-25 h-90  ">
         <img 
           src="/images/img_rounded_rectangle.png" 
           alt="orange rect" 
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover max-2xl:hidden"
         />
       </div>
       
-      <div className="absolute left-0 top-175 w-40 h-50">
+      <div className="absolute left-0 top-175 w-40 h-50 ">
         <img 
           src="/images/Rounded_rectangle.png" 
           alt="white rect" 
-          className="w-full h-full object-container sm-object-hidden"
+          className="w-full h-full object-container max-2xl:hidden"
         />
       </div>
 
@@ -55,7 +55,7 @@ export default function Qns() {
         <img 
           src="/images/Circle.png" 
           alt="cirlce" 
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover  max-2xl:hidden"
         />
       </div>
 
