@@ -57,7 +57,7 @@ export default function HeroSection({ loading }: HeroSectionProps) {
             </h1>
             
             {/* Description */}
-            <p className="text-[8px] sm:text-[12px] lg:text-[16px] font-normal leading-[9px] sm:leading-[14px] lg:leading-[19px] text-center text-[#ffffffb2] w-[68%] font-modernist">
+            <p className="text-[8px] sm:text-[12px] top-1px lg:text-[16px] font-normal leading-[9px] sm:leading-[14px] lg:leading-[19px] text-center text-[#ffffffb2] w-[68%] font-modernist">
               Our AI-powered SaaS platform empowers businesses to streamline operations, automate repetitive tasks, and make smarter, data-driven decisions—all from one intuitive dashboard.
             </p>
             
@@ -65,14 +65,14 @@ export default function HeroSection({ loading }: HeroSectionProps) {
             <div className="flex flex-row gap-[8px] sm:gap-[12px] lg:gap-[16px] justify-center items-center w-auto">
               <Button
                 text="Get Started"
-                text_font_size="text-[7px] sm:text-[10px] lg:text-[14px]"
+                text_font_size="text-[7px]  lg:text-[14px]"
                 text_font_family="Sk-Modernist"
                 text_font_weight="font-bold"
-                text_line_height="leading-[9px] sm:leading-[13px] lg:leading-[18px]"
+                text_line_height="leading-[9px]  lg:leading-[18px]"
                 text_color="text-white"
                 fill_background_color="bg-[#ff531f]"
                 border_border_radius="rounded-[3px] sm:rounded-[4px] lg:rounded-[6px]"
-                padding="pt-[4px] pr-[13px] pb-[4px] pl-[13px] sm:pt-[6px] sm:pr-[19px] sm:pb-[6px] sm:pl-[19px] lg:pt-[8px] lg:pr-[26px] lg:pb-[8px] lg:pl-[26px]"
+                padding="pt-[4px] pr-[13px] pb-[4px] pl-[13px]  sm:pr-[19px] pb-[2px]  pt-[2px] md:pr-[13px] pl-[13px] pb-[8px] pt-[8px] lg:pt-[8px] lg:pr-[26px] lg:pb-[8px] lg:pl-[26px]"
                 className="w-auto hover:bg-primary-light active:scale-95 transition-all duration-200"
                 onClick={handleGetStarted}
               />
@@ -87,7 +87,7 @@ export default function HeroSection({ loading }: HeroSectionProps) {
                 fill_background_color="bg-transparent"
                 border_border="border border-[#fcfcfc3a]"
                 border_border_radius="rounded-[3px] sm:rounded-[4px] lg:rounded-[6px]"
-                padding="pt-[4px] pr-[13px] pb-[4px] pl-[13px] sm:pt-[6px] sm:pr-[19px] sm:pb-[6px] sm:pl-[19px] lg:pt-[8px] lg:pr-[26px] lg:pb-[8px] lg:pl-[26px]"
+                padding="pt-[4px] pr-[13px] pb-[4px] pl-[13px]  sm:pr-[19px] pb-[2px]  pt-[2px] md:pr-[13px] pl-[13px] pb-[6.2px] pt-[6.2px] lg:pt-[8px] lg:pr-[26px] lg:pb-[8px] lg:pl-[26px]"
                 className="w-auto hover:bg-background-subtle active:scale-95 transition-all duration-200"
                 onClick={handleSeeDetails}
               />

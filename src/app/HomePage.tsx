@@ -137,33 +137,43 @@ export default function HomePage() {
       <div className="relative w-full">
         <div className="relative w-full">
           <div
-            className="absolute top-[65px] sm:top-[97px] lg:top-[130px] right-[129px] sm:right-[193px] lg:right-[258px] w-[118px] sm:w-[177px] lg:w-[236px] h-[178px] sm:h-[267px] lg:h-[356px] object-cover bg-cover bg-center bg-no-repeat"
+            className="absolute top-[65px] sm:top-[97px] lg:top-[130px] right-[129px] sm:right-[193px] lg:right-[258px] w-[118px] sm:w-[177px] lg:w-[236px] h-[178px] sm:h-[267px] lg:h-[356px] z-10 object-cover bg-cover bg-center bg-no-repeat"
             style={{ backgroundImage: 'url(/images/bg_design1.png)' }}
           />
 
           <img
             src="/images/bg_design2.png"
             alt="Design element"
-            className="absolute top-[65px] sm:top-[97px] lg:top-[130px] right-[8px] sm:right-[12px] lg:right-[16px] w-[118px] sm:w-[177px] lg:w-[236px] h-[178px] sm:h-[267px] lg:h-[356px] object-cover"
+            className="absolute top-[65px] sm:top-[97px] z-10 lg:top-[130px] right-[8px] sm:right-[12px] lg:right-[16px] w-[118px] sm:w-[177px] lg:w-[236px] h-[178px] sm:h-[267px] lg:h-[356px] object-cover"
           />
 
           <img
             src="/images/bg_design3.png"
             alt="Design element"
-            className="absolute top-[205px] sm:top-[308px] lg:top-[410px] right-[53px] sm:right-[79px] lg:right-[106px] w-[178px] sm:w-[267px] lg:w-[356px] h-[118px] sm:h-[177px] lg:h-[236px] object-cover"
+            className="absolute top-[205px] sm:top-[308px] z-10 lg:top-[410px] right-[53px] sm:right-[79px] lg:right-[106px] w-[178px] sm:w-[267px] lg:w-[356px] h-[118px] sm:h-[177px] lg:h-[236px] object-cover"
           />
       {/* Hero Background */}
       <img
         src="/images/img_image_87.png"
         alt="Hero background"
-        className="absolute  top-0 left-[-10%] h-[calc(100%+200px)] w-[66%] object-cover pointer-events-none select-none"
+        className="absolute  top-0  h-[calc(100%+200px)] w-full object-cover pointer-events-none select-none"
       />
 
-      <img
-        src="/images/img_image_88_910.png"
-        alt="Hero right background"
-        className="absolute top-[-15%] right-0 h-[70%] w-full sm:w-[30%] lg:w-[25%] object-cover pointer-events-none select-none"
-      />
+     {/* <div 
+  className="absolute top-0 right-0 w-[60%] h-full pointer-events-none select-none"
+  style={{ overflow: 'hidden' }}
+>
+ <img
+  src="/images/img_image_88_910.png"
+  alt="Hero right background"
+  className="absolute top-0 right-0 h-full w-auto pointer-events-none select-none"
+  style={{ 
+    minWidth: '50%',
+    objectFit: 'cover',
+    objectPosition: 'right center'
+  }}
+/>
+</div> */}
 
        <div className="absolute top-[65px] sm:top-[97px] lg:top-[130px] left-0 w-[152px] sm:w-[228px] lg:w-[304px] h-[394px] sm:h-[591px] lg:h-[788px]  z-10 lg:flex flex-col justify-center items-center w-[34%] object-cover ">
             <img

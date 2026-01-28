@@ -8,7 +8,7 @@ interface AchievementsProps {
 
 interface Achievement {
   id: number
-  year: string
+  year: string  
   value: string
   label: string
   description: string
@@ -183,18 +183,18 @@ export default function AchievementsSection({ loading }: AchievementsProps) {
         </div>
         
         {/* Call to Action */}
-        <div className="flex flex-row justify-between items-center w-[20%] sm:w-[25%] ">
+        <div className="flex flex-row justify-between items-center  gap-[8px] sm:gap-[12px] lg:gap-[16px] justify-center items-center w-auto ">
           <Button
             text="Get Started"
-            text_font_size="text-[7px] sm:text-[10px] lg:text-[14px]"
+            text_font_size="text-[7px]  lg:text-[14px]"
             text_font_family="Sk-Modernist"
             text_font_weight="font-bold"
-            text_line_height="leading-[7px] sm:leading-[10px] lg:leading-[14px]"
+            text_line_height="leading-[7px]  lg:leading-[14px]"
             text_color="text-white"
             fill_background_color="bg-[#ff531f]"
             border_border_radius="rounded-[3px] sm:rounded-[4px] lg:rounded-[6px]"
-            padding="pt-[5px] pr-[20px] pb-[5px] pl-[12px] sm:pt-[7px] sm:pr-[30px] sm:pb-[7px] sm:pl-[18px] lg:pt-[10px] lg:pr-[40px] lg:pb-[10px] lg:pl-[24px]"
-            className="w-auto gap-[4px] sm:gap-[6px] lg:gap-[8px] hover:bg-primary-light active:scale-95 transition-all duration-200"
+            padding="pt-[5px] pr-[20px] pb-[5px] pl-[12px]  sm:pr-[19px] pb-[5px] pt-[5px] lg:pt-[10px] lg:pr-[40px] lg:pb-[10px] lg:pl-[24px]"
+            className="w-auto gap-[4px]  lg:gap-[8px] hover:bg-primary-light active:scale-95 transition-all duration-200"
             onClick={handleGetStarted}
           >
             Get Started
@@ -205,12 +205,12 @@ export default function AchievementsSection({ loading }: AchievementsProps) {
             />
           </Button>
           
-          {/* <div className="flex flex-row justify-end items-center w-auto"> */}
+          <div className="flex flex-row justify-end items-center w-auto">
             <p className="text-[5px] sm:text-[8px] lg:text-[11px] font-normal leading-[6px] sm:leading-[9px] lg:leading-[13px] text-left text-[#ffffff99] font-modernist">
               Slots are avaliable
             </p>
             <div className="w-[2px] sm:w-[3px] lg:w-[4px] h-[2px] sm:h-[3px] lg:h-[4px] bg-[#09c300] rounded-[1px] sm:rounded-[1px] lg:rounded-[2px] ml-[3px] sm:ml-[4px] lg:ml-[6px]"></div>
-          {/* </div> */}
+          </div>
         </div>
       </div>
       
