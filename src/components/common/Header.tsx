@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <header className="relative w-full bg-transparent">
-      <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-4  lg:px-8">
         <div className="flex flex-row justify-between items-center py-4">
 
           {/* Logo */}

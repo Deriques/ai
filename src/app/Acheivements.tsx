@@ -75,7 +75,7 @@ export default function AchievementsSection({ loading }: AchievementsProps) {
           
           <div className="flex flex-row gap-[15px] sm:gap-[13px] lg:gap-[18px] justify-start items-start w-full">
             {[...Array(4)].map((_, index) => (
-              <div key={index} className="flex flex-col justify-start items-start w-full">
+              <div key={index} className="flex flex-col justify-start items-start w-full sm:w-[calc(50%-7px)] lg:w-[calc(25%-14px)]">
                 <div className="w-full h-16 bg-background-subtle animate-pulse rounded mb-4"></div>
                 <div className="w-3/4 h-4 bg-background-subtle animate-pulse rounded mb-2"></div>
                 <div className="w-full h-4 bg-background-subtle animate-pulse rounded mb-4"></div>
@@ -106,7 +106,7 @@ export default function AchievementsSection({ loading }: AchievementsProps) {
         <div className="flex flex-row gap-[9px] sm:gap-[13px] lg:gap-[18px] justify-start items-start w-full">
           
           {/* First Achievement */}
-          <div className="flex flex-col justify-start items-start w-full">
+          <div className="flex flex-col justify-start items-start w-full sm:w-[calc(50%-7px)] lg:w-[calc(25%-14px)]">
             <p className="text-[24px] sm:text-[36px] lg:text-[49px] font-bold leading-[27px] sm:leading-[41px] lg:leading-[55px] text-left text-white font-modernist">
               2014
             </p>
@@ -126,7 +126,7 @@ export default function AchievementsSection({ loading }: AchievementsProps) {
           </div>
           
           {/* Second Achievement */}
-          <div className="flex flex-col justify-start items-start self-end w-full mt-[31px] sm:mt-[46px] lg:mt-[62px]">
+          <div className="flex flex-col justify-start items-start self-end w-full sm:w-[calc(50%-7px)] lg:w-[calc(25%-14px)] mt-[31px] sm:mt-[46px] lg:mt-[62px]">
             <p className="text-[24px] sm:text-[36px] lg:text-[49px] font-bold leading-[27px] sm:leading-[41px] lg:leading-[55px] text-left text-white font-modernist">
               304
             </p>
@@ -144,7 +144,7 @@ export default function AchievementsSection({ loading }: AchievementsProps) {
           </div>
           
           {/* Third Achievement */}
-          <div className="flex flex-col justify-start items-start w-full">
+          <div className="flex flex-col justify-start items-start w-full sm:w-[calc(50%-7px)] lg:w-[calc(25%-14px)]">
             <p className="text-[24px] sm:text-[36px] lg:text-[49px] font-bold leading-[27px] sm:leading-[41px] lg:leading-[55px] text-left text-white font-modernist">
               189
             </p>
@@ -164,7 +164,7 @@ export default function AchievementsSection({ loading }: AchievementsProps) {
           </div>
           
           {/* Fourth Achievement */}
-          <div className="flex flex-col justify-start items-start self-end w-full">
+          <div className="flex flex-col justify-start items-start self-end w-full sm:w-[calc(50%-7px)] lg:w-[calc(25%-14px)]">
             <p className="text-[24px] sm:text-[36px] lg:text-[49px] font-bold leading-[27px] sm:leading-[41px] lg:leading-[55px] text-left text-white font-modernist">
               12
             </p>
@@ -218,7 +218,7 @@ export default function AchievementsSection({ loading }: AchievementsProps) {
       <img
         src="/images/img_dots.png"
         alt="Background dots pattern"
-        className="absolute top-[-15px] sm:top-[-22px] lg:top-[-30px] left-[233px] sm:left-[349px] lg:left-[466px] w-[359px] sm:w-[538px] lg:w-[718px] h-[446px] sm:h-[669px] lg:h-[892px]"
+        className="absolute top-[-15px] sm:top-[-22px] lg:top-[-30px] left-1/2 -translate-x-1/2 sm:translate-x-0 sm:left-[349px] lg:left-[466px] w-[359px] sm:w-[538px] lg:w-[718px] h-[446px] sm:h-[669px] lg:h-[892px]"
       />
       
       {/* Bottom decorative images

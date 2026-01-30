@@ -4,10 +4,16 @@ body {
   padding: 0;
 
   box-sizing: border-box;
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+
+html {
+  overflow-x: hidden;
 }

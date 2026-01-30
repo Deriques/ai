@@ -156,24 +156,9 @@ export default function HomePage() {
       <img
         src="/images/img_image_87.png"
         alt="Hero background"
-        className="absolute  top-0  h-[calc(100%+200px)] w-full object-cover pointer-events-none select-none"
-      />
+className="absolute top-0 left-0 w-full h-[350px] xs:h-[394px] sm:h-[591px] lg:h-[calc(100%+200px)] object-cover pointer-events-none select-none"   
+   />
 
-     {/* <div 
-  className="absolute top-0 right-0 w-[60%] h-full pointer-events-none select-none"
-  style={{ overflow: 'hidden' }}
->
- <img
-  src="/images/img_image_88_910.png"
-  alt="Hero right background"
-  className="absolute top-0 right-0 h-full w-auto pointer-events-none select-none"
-  style={{ 
-    minWidth: '50%',
-    objectFit: 'cover',
-    objectPosition: 'right center'
-  }}
-/>
-</div> */}
 
        <div className="absolute top-[65px] sm:top-[97px] lg:top-[130px] left-0 w-[152px] sm:w-[228px] lg:w-[304px] h-[394px] sm:h-[591px] lg:h-[788px]  z-10 lg:flex flex-col justify-center items-center w-[34%] object-cover ">
             <img
@@ -214,17 +199,17 @@ export default function HomePage() {
         />
         <Qns /> 
 
-        <div className="absolute right-0 top-[3600px] sm:top-[3700px] lg:top-[3800px] w-[700px] h-full z-0 pointer-events-none">
+        <div className="absolute right-0 top-[3600px] sm:top-[3700px] lg:top-[3800px] w-[700px] h-full z-0 pointer-events-none overflow-hidden">
   <img
     src="/images/Ellipse 854 (1).png"
     alt="ellipse gradient"
-    className="w-[940px] h-[983px] object-cover opacity-80"
+    className="w-full max-w-[940px]  h-auto object-cover opacity-80"
   />
 </div>
 
 
 {/* Slanting lines */}
-        <div className="absolute right-[-10%] h-[calc(100%+1200px)]  top-[5600px] sm:top-[3700px] lg:top-[3800px] w-[700px] h-full z-0 pointer-events-none">
+        <div className="absolute  right-0 h-[calc(100%+1200px)]  top-[5600px] sm:top-[3700px] lg:top-[3800px] w-[700px] w-full max-w-[700px] h-full z-0 pointer-events-none overflow-hidden">
         <div className=" absolute inset-0 opacity-80 pointer-events-none"
         style={{
           background: 'linear-gradient(-135deg, transparent 48%, rgba(139, 69, 19, 0.15) 48%, rgba(139, 69, 19, 0.15) 52%, transparent 52%)',

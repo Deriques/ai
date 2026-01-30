@@ -33,7 +33,7 @@ export default function Qns() {
   };
 
   return (
-    <div className="relative min-h-screen bg-black text-white overflow-visible ">
+    <div className="relative min-h-screen bg-black text-white overflow-hidden sm:overflow-hidden  ">
       {/* Background decorative elements */}
       <div className="absolute left-0 top-0 w-25 h-90  ">
         <img 
